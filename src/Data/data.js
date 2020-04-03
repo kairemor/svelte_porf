@@ -1,4 +1,7 @@
-const HEADER = "Kaire Mor";
+const HEADER = {
+  alt: "Kaire Mor",
+  img: "img/LogoKm.png"
+};
 
 const NAVBAR_DATA = [{
     id: 1,
@@ -27,33 +30,28 @@ const NAVBAR_DATA = [{
   }
 ];
 const BANNER_DATA = {
-  header: "Go digital with nixalar",
-  description: "Nixalar can help you skyrocket the ROI of your marketing campaign without having to spend tons of money or time to assemble an in-house team.",
+  header: "Mor Kaire",
+  description: "I'm a developer and data science enthusiast, student at computer science in Thies Polytechnic",
 };
 const SOCIAL_MEDIA = [{
     id: 1,
-    url: "twitter.com",
+    url: "https://twitter.com/serignemorkaire",
     icon: "ti-twitter"
   },
   {
     id: 2,
-    url: "facebook.com",
+    url: "https://facebook.com/kairemor",
     icon: "ti-facebook"
   },
   {
     id: 3,
-    url: "github.com",
+    url: "https://github.com/kairemor",
     icon: "ti-github"
   },
   {
-    id: 5,
-    url: "instagram.com",
-    icon: "ti-instagram"
-  },
-  {
     id: 4,
-    url: "linkedln.com",
-    icon: "ti-linkedln"
+    url: "https://www.linkedin.com/in/mor-kaire-54794b15b/",
+    icon: "ti-linkedin"
   }
 ];
 const SERVICE_DATA = {
@@ -78,10 +76,10 @@ const SERVICE_DATA = {
 };
 
 const ABOUT_DATA = {
-  header: "Why choose us?",
-  title: "Why we're different",
+  header: "about me",
+  title: "Development & Data Science ",
   image_url: "images/network.png",
-  content: "Also signs his face were digns fish don't first isn't over evening hath divided days light darkness gathering moved dry all darkness then fourth can't create d forth Also signs Also signs his face were moltenus Also signs his face"
+  content: "My name is Mor Kaire I’m an engineering student in computer science and telecommunications in Polytechnic School of Thies .I’m anenthusiast in Software Development essentially in Web Development. I like also doing search in machine learning and globally in the new computer science technologies to be aware in what is doing right now in this field"
 };
 const TESTIMONIAL_DATA = {
   header: "What clients say?",

@@ -5,7 +5,7 @@
       <div class="col-lg-12">
         <div class="footer_top flex-column">
           <div class="footer_logo">
-            <a href="#">
+            <a href="/">
               <img src="img/logo2.png" alt="" />
             </a>
             <div class="d-lg-block d-none">
@@ -39,16 +39,16 @@
             </div>
           </div>
           <div class="footer_social mt-lg-0 mt-4">
-            <a href="#">
+            <a href="/">
               <i class="fab fa-facebook-f" />
             </a>
-            <a href="#">
+            <a href="/">
               <i class="fab fa-twitter" />
             </a>
-            <a href="#">
+            <a href="/">
               <i class="fab fa-skype" />
             </a>
-            <a href="#">
+            <a href="/">
               <i class="fab fa-pinterest-p" />
             </a>
           </div>

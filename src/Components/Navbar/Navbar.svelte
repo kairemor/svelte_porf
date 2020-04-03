@@ -1,6 +1,6 @@
 <script>
   export let navlists = [];
-  export let header;
+  export let header = {};
 </script>
 
 <!--================ Start Header Area =================-->
@@ -9,10 +9,10 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <a class="navbar-brand logo_h" href="index.html">
-          <img src="img/logo.png" alt={header} />
+        <a class="navbar-brand logo_h" href="/">
+          <img src={header.img} alt={header.alt} />
         </a>
-        <a class="navbar-brand logo_inner_page" href="index.html">
+        <a class="navbar-brand logo_inner_page" href="/">
           <img src="img/logo2.png" alt="" />
         </a>
         <button
