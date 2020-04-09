@@ -1,10 +1,10 @@
 <script>
   export let BANNER = {};
-  export let socials = [];
+  export let skills = [];
 </script>
 
 <!--================ Start Home Banner Area =================-->
-<section class="home_banner_area">
+<section id="home" class="home_banner_area">
   <div class="banner_inner">
     <div class="container">
       <div class="row align-items-center justify-content-between">
@@ -13,15 +13,15 @@
             <h1 class="text-uppercase">{BANNER.header}</h1>
             <h5 class="text-uppercase">{BANNER.description}</h5>
             <div class="social_icons my-5">
-              {#each socials as social}
-                <a href={social.url}>
-                  <i class={social.icon} />
-                </a>
+              {#each skills as social}
+                <span>
+                  <i class={social.icon} size="7x" />
+                </span>
               {/each}
             </div>
-            <a class="primary_btn" href="/it">
+            <!-- <a class="primary_btn" href="">
               <span>See My Work</span>
-            </a>
+            </a> -->
           </div>
         </div>
         <div class="col-lg-4">

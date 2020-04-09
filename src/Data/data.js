@@ -5,7 +5,7 @@ const HEADER = {
 
 const NAVBAR_DATA = [{
     id: 1,
-    url: "/",
+    url: "#home",
     label: "Home"
   },
   {
@@ -52,6 +52,24 @@ const SOCIAL_MEDIA = [{
     id: 4,
     url: "https://www.linkedin.com/in/mor-kaire-54794b15b/",
     icon: "ti-linkedin"
+  }
+];
+
+const SKILLS = [{
+    id: 1,
+    icon: "fab fa-js"
+  },
+  {
+    id: 2,
+    icon: "fab fa-node-js"
+  },
+  {
+    id: 3,
+    icon: "fab fa-react"
+  },
+  {
+    id: 4,
+    icon: "fab fa-python"
   }
 ];
 const SERVICE_DATA = {
@@ -131,6 +149,7 @@ const MOCK_DATA = {
   ABOUT_DATA,
   TESTIMONIAL_DATA,
   SOCIAL_DATA,
-  FOOTER_DATA
+  FOOTER_DATA,
+  SKILLS
 };
 export default MOCK_DATA;

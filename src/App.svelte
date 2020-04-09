@@ -23,7 +23,7 @@
   <!-- Navbar -->
   <Navbar navlists={DATA.NAVBAR_DATA} headers={DATA.HEADER} />
 
-  <Banner BANNER={DATA.BANNER_DATA} socials={DATA.SOCIAL_MEDIA} />
+  <Banner BANNER={DATA.BANNER_DATA} skills={DATA.SKILLS} />
 
   <AboutUs ABOUT={DATA.ABOUT_DATA} />
 
@@ -31,5 +31,5 @@
 
   <Porfolio />
   <Contact />
-  <Footer socials={DATA.SOCIAL_MEDIA} />
+  <Footer navlists={DATA.NAVBAR_DATA} socials={DATA.SOCIAL_MEDIA} />
 </main>

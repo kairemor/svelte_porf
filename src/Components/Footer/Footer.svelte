@@ -1,4 +1,5 @@
 <script>
+  export let navlists = [];
   export let socials = [];
 </script>
 
@@ -18,25 +19,13 @@
                 justify-content-center">
                 <div class="collapse navbar-collapse offset">
                   <ul class="nav navbar-nav menu_nav mx-auto">
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="portfolio.html">
-                        Portfolio
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="blog.html">BLog</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="services.html">
-                        Services
-                      </a>
-                    </li>
+                    {#each navlists as nav}
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href={nav.url}>
+                          {nav.label}
+                        </a>
+                      </li>
+                    {/each}
                   </ul>
                 </div>
               </nav>
