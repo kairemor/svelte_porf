@@ -1,3 +1,7 @@
+<script>
+  export let socials = [];
+</script>
+
 <!--================Footer Area =================-->
 <footer class="footer_area">
   <div class="container">
@@ -39,6 +43,11 @@
             </div>
           </div>
           <div class="footer_social mt-lg-0 mt-4">
+            {#each socials as social}
+              <a href={social.url}>
+                <i class={social.icon} />
+              </a>
+            {/each}
             <a href="/">
               <i class="fab fa-facebook-f" />
             </a>
@@ -62,7 +71,7 @@
         <script>
           document.write(new Date().getFullYear());
         </script>
-        All rights reserved | This template is made with
+        All rights reserved | This is made with
         <i class="fa fa-heart" aria-hidden="true" />
         by
         <a href="https://colorlib.com" target="_blank">Colorlib</a>

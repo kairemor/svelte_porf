@@ -3,7 +3,7 @@
 </script>
 
 <!--================ Start About Us Area =================-->
-<section class="about_area section_gap">
+<section id="about-us" class="about_area section_gap">
   <div class="container">
     <div class="row justify-content-start align-items-center">
       <div class="col-lg-5">

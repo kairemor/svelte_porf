@@ -20,12 +20,12 @@ const NAVBAR_DATA = [{
   },
   {
     id: 4,
-    url: "#testimonials",
-    label: "Testimonials"
+    url: "#portfolio",
+    label: "Projects"
   },
   {
     id: 5,
-    url: "#footer",
+    url: "#contact",
     label: "Contacts"
   }
 ];
@@ -79,7 +79,7 @@ const ABOUT_DATA = {
   header: "about me",
   title: "Development & Data Science ",
   image_url: "images/network.png",
-  content: "My name is Mor Kaire I’m an engineering student in computer science and telecommunications in Polytechnic School of Thies .I’m anenthusiast in Software Development essentially in Web Development. I like also doing search in machine learning and globally in the new computer science technologies to be aware in what is doing right now in this field"
+  content: "My name is Mor Kaire I’m an engineering student in computer science and telecommunications in Polytechnic School of Thies .I’m anenthusiast in Software Development essentially in Web Development & mobile development. I like also doing search in machine learning and globally in the new computer science technologies to be aware in what is doing right now in this field"
 };
 const TESTIMONIAL_DATA = {
   header: "What clients say?",

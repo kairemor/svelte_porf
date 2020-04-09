@@ -3,26 +3,33 @@
   import Banner from "./Components/Banner/Banner.svelte";
   import Statistique from "./Components/Banner/Statistique.svelte";
   import AboutUs from "./Components/AboutUs/AboutUs.svelte";
+  import Service from "./Components/Service/Service.svelte";
   import Project from "./Components/Project/Project.svelte";
-  // import Social from "./Components/Social/Social.svelte";
   import Footer from "./Components/Footer/Footer.svelte";
+  import Skills from "./Components/Skills/Skills.svelte";
+  import Porfolio from "./Components/Porfolio/Porfolio.svelte";
+  import Contact from "./Components/Contact/Contact.svelte";
 
   import DATA from "./Data/data.js";
 </script>
 
-<style>
-
+<style global>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
 </style>
 
 <main>
   <!-- Navbar -->
   <Navbar navlists={DATA.NAVBAR_DATA} headers={DATA.HEADER} />
-  <!-- Banner -->
+
   <Banner BANNER={DATA.BANNER_DATA} socials={DATA.SOCIAL_MEDIA} />
-  <Statistique < />
-  <!-- About -->
+
   <AboutUs ABOUT={DATA.ABOUT_DATA} />
-  <!-- Footer -->
-  <Project />
-  <Footer />
+
+  <Service />
+
+  <Porfolio />
+  <Contact />
+  <Footer socials={DATA.SOCIAL_MEDIA} />
 </main>
