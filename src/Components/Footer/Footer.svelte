@@ -37,18 +37,6 @@
                 <i class={social.icon} />
               </a>
             {/each}
-            <a href="/">
-              <i class="fab fa-facebook-f" />
-            </a>
-            <a href="/">
-              <i class="fab fa-twitter" />
-            </a>
-            <a href="/">
-              <i class="fab fa-skype" />
-            </a>
-            <a href="/">
-              <i class="fab fa-pinterest-p" />
-            </a>
           </div>
         </div>
       </div>

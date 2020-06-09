@@ -8,15 +8,15 @@
             <span />
           </p>
           <h2>
-            Check Our Recent
+            Check Our
             <br />
-            Client Work
+            Recent Work
           </h2>
         </div>
       </div>
     </div>
 
-    <div class="filters portfolio-filter">
+    <!-- <div class="filters portfolio-filter">
       <ul>
         <li class="active" data-filter="*">all</li>
         <li data-filter=".popular">popular</li>
@@ -24,51 +24,54 @@
         <li data-filter=".following">following</li>
         <li data-filter=".upcoming">upcoming</li>
       </ul>
-    </div>
+    </div> -->
 
     <div class="filters-content">
       <div class="row portfolio-grid">
         <div class="grid-sizer col-md-3 col-lg-3" />
         <div class="col-lg-6 col-md-6 all following">
           <div class="single_portfolio">
-            <img class="img-fluid w-100" src="img/portfolio/p1.jpg" alt="" />
-            <div class="overlay" />
-            <div class="short_info">
-              <h4>
-                <a href="portfolio-details.html">Lens Mockup Design</a>
-              </h4>
-              <p>Art, Illustration</p>
-            </div>
+            <a href="http://covid19kashmoard.us-west-2.elasticbeanstalk.com">
+              <img
+                class="img-fluid w-100"
+                src="img/covidDashboard.png"
+                alt="" />
+              <div class="overlay" />
+              <div class="short_info">
+                <h4>Covid19 Dashboard</h4>
+                <p>Check Covid19 news</p>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-6 col-md-6 all latest popular upcoming">
           <div class="single_portfolio">
-            <img class="img-fluid w-100" src="img/portfolio/p4.jpg" alt="" />
-            <div class="overlay" />
-            <div class="short_info">
-              <h4>
-                <a href="portfolio-details.html">Lens Mockup Design</a>
-              </h4>
-              <p>Art, Illustration</p>
-            </div>
+            <a href="https://todokm.herokuapp.com/">
+              <img class="img-fluid w-100" src="img/covidback.png" alt="" />
+              <div class="overlay" />
+              <div class="short_info">
+                <h4>Lens Mockup Design</h4>
+                <p>Art, Illustration</p>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 all latest following">
           <div class="single_portfolio">
-            <img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="" />
-            <div class="overlay" />
-            <div class="short_info">
-              <h4>
-                <a href="portfolio-details.html">Lens Mockup Design</a>
-              </h4>
-              <p>Art, Illustration</p>
-            </div>
+            <a href="https://coronakm.appspot.com/">
+              <img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="" />
+              <div class="overlay" />
+              <div class="short_info">
+                <h4>Covid19 API</h4>
+                <p>Get news about covid19 cases</p>
+              </div>
+            </a>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 all latest upcoming">
+        <!-- <div class="col-lg-3 col-md-6 all latest upcoming">
           <div class="single_portfolio">
             <img class="img-fluid w-100" src="img/portfolio/p3.jpg" alt="" />
             <div class="overlay" />
@@ -105,7 +108,7 @@
               <p>Art, Illustration</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div>
