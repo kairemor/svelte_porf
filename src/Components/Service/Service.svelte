@@ -22,10 +22,7 @@
         <div class="service_item">
           <img src="img/services/s1.png" alt="" />
           <h4>Web Development</h4>
-          <p>
-            Fruit saw for brought fish forth had ave is man a that their Two he
-            is dominion evening their Fruit saw for brought fish forth
-          </p>
+          <p>Web development is our</p>
           <a href="/" class="primary_btn2 mt-35">Learn More</a>
         </div>
       </div>
