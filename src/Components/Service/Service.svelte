@@ -22,8 +22,13 @@
         <div class="service_item">
           <img src="img/services/s1.png" alt="" />
           <h4>Web Development</h4>
-          <p>Web development is our</p>
-          <a href="/" class="primary_btn2 mt-35">Learn More</a>
+          <p>
+            Web development is our main field. I do backend and frontend
+            development. Our main backend technologies used are
+            <b>Node js, Django Framework and DRF, Spring Boot</b>
+            and our main frontend technologies are
+            <b>React js, Vue Js, Angular</b>
+          </p>
         </div>
       </div>
 
@@ -32,22 +37,22 @@
           <img src="img/services/s2.png" alt="" />
           <h4>Mobile Development</h4>
           <p>
-            Fruit saw for brought fish forth had ave is man a that their Two he
-            is dominion evening their Fruit saw for brought fish forth
+            I do also mobile development native and hybrid. Our main
+            technologies are
+            <b>Flutter, React Native, Ionic</b>
+            and
+            <b>Native android with Kotlin or Java</b>
           </p>
-          <a href="/" class="primary_btn2 mt-35">Learn More</a>
+
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
         <div class="service_item">
           <img src="img/services/s3.png" alt="" />
-          <h4>Big Data and AI</h4>
-          <p>
-            Fruit saw for brought fish forth had ave is man a that their Two he
-            is dominion evening their Fruit saw for brought fish forth
-          </p>
-          <a href="/" class="primary_btn2 mt-35">Learn More</a>
+          <h4>AI and Big Data</h4>
+          From data preprocessing to machine learning model
+          <p />
         </div>
       </div>
     </div>

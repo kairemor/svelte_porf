@@ -1,3 +1,10 @@
+<script>
+  const sendCpntactMessage = () => {
+    const formData = new FormData(document.forms.contactForm);
+    console.log(formData);
+  };
+</script>
+
 <section id="contact" class="section">
   <div class="container">
     <div class="row">
@@ -44,7 +51,7 @@
       <div class="col-lg-8 mb-4 mb-lg-0">
         <form
           class="form-contact contact_form"
-          action="contact_process.php"
+          name="contactForm"
           method="post"
           id="contactForm"
           novalidate="novalidate">

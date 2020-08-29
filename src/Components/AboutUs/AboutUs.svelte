@@ -20,7 +20,7 @@
           </p>
           <h2>{ABOUT.title}</h2>
           <p>{ABOUT.content}</p>
-          <a class="primary_btn" href="/my_cv">
+          <a class="primary_btn" href="kairemor_resume_new.pdf">
             <span>Download CV</span>
           </a>
         </div>

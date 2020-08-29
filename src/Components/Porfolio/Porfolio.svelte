@@ -47,12 +47,12 @@
 
         <div class="col-lg-6 col-md-6 all latest popular upcoming">
           <div class="single_portfolio">
-            <a href="https://todokm.herokuapp.com/">
-              <img class="img-fluid w-100" src="img/covidback.png" alt="" />
+            <a href=" https://todokm.herokuapp.com/">
+              <img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="" />
               <div class="overlay" />
               <div class="short_info">
-                <h4>Lens Mockup Design</h4>
-                <p>Art, Illustration</p>
+                <h4>To do api</h4>
+                <p>API for our todo app developed with express and mongo db</p>
               </div>
             </a>
           </div>
@@ -61,11 +61,43 @@
         <div class="col-lg-3 col-md-6 all latest following">
           <div class="single_portfolio">
             <a href="https://coronakm.appspot.com/">
-              <img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="" />
+              <img class="img-fluid w-100" src="img/covidback.png" alt="" />
               <div class="overlay" />
               <div class="short_info">
                 <h4>Covid19 API</h4>
                 <p>Get news about covid19 cases</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 all latest following">
+          <div class="single_portfolio">
+            <a href="https://whatsapp-clone-5c8fa.web.app/">
+              <img
+                class="img-fluid w-100"
+                src="img/portfolio/whatsapp-clone.gif"
+                alt="" />
+              <div class="overlay" />
+              <div class="short_info">
+                <h4>Whatsapp Clone</h4>
+                <p>A Whatsapp clone build with ReactJs Firebase Material UI</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 all latest following">
+          <div class="single_portfolio">
+            <a href="https://tiktok-clone-ee47c.web.app/">
+              <img
+                class="img-fluid w-100"
+                src="img/portfolio/tiktok_clone.gif"
+                alt="" />
+              <div class="overlay" />
+              <div class="short_info">
+                <h4>Tiktok Clone</h4>
+                <p>A tiktok clone build with ReactJs Firebase Material UI</p>
               </div>
             </a>
           </div>
