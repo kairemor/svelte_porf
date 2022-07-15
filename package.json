@@ -15,7 +15,7 @@
     "rollup-plugin-terser": "^5.1.2",
     "postcss": "^7.0.27",
     "postcss-load-config": "^2.1.0",
-    "svelte": "^3.0.0",
+    "svelte": "^3.49.0",
     "svelte-preprocess": "^3.7.1",
     "tailwindcss": "^1.2.0"
   },
