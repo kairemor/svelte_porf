@@ -22,7 +22,7 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "@okrad/svelte-progressbar": "^1.4.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "sirv-cli": "^0.4.4"
   }
 }
